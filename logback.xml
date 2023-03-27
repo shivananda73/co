@@ -40,7 +40,7 @@
  
     <!-- LOG "com.baeldung*" at TRACE level -->
     <logger name="com.supernet" level="trace" additivity="false">
-        <appender-ref ref="RollingFile" />
+        <appender-ref ref="RollFile" />
         <appender-ref ref="Console" />
     </logger>
  
